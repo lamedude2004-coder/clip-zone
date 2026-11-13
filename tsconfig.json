@@ -6,8 +6,6 @@
         "lib": ["es2019", "dom", "dom.iterable", "WebWorker"],
         "jsx": "react-jsx",
         "jsxImportSource": "preact",
-        "jsxFactory": "h",
-        "jsxFragmentFactory": "Fragment",
         "moduleResolution": "bundler",
         "strict": true,
         "baseUrl": ".",
@@ -21,7 +19,7 @@
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
         "downlevelIteration": true,
-        "skipLibCheck": true,
-        "include": ["resources/js/global.d.ts"]
-    }
+        "skipLibCheck": true
+    },
+    "include": ["resources/js/global.d.ts"]
 }
